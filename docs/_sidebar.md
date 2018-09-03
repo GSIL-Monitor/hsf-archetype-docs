@@ -17,6 +17,6 @@
   * [2.6 统一日志处理](log.md)
   * [2.7 统一异常处理](exception.md)
   * [2.8 Docker使用](docker.md)
+  * [2.9 HSF本地RPC调用线上服务](invoke.md)
 
 * [Changelog](changelog.md)
-
