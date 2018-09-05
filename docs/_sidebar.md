@@ -18,5 +18,6 @@
   * [2.7 统一异常处理](exception.md)
   * [2.8 Docker使用](docker.md)
   * [2.9 HSF本地RPC调用线上服务](invoke.md)
+  * [2.10 RESTful API 设计指南](restful-design.md)
 
 * [Changelog](changelog.md)
