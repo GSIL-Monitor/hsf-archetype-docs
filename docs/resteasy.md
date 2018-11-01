@@ -19,7 +19,8 @@ RESTEasy 是 JBoss 的一个开源项目，提供各种框架构建 RESTful Web 
 @GET，@POST，@PUT，@DELETE注解分别对应HTTP请求的查询，新增，修改，删除方法。
 
 更多注解如：@FormParam、@PathParam、@QueryParam、@HeaderParam、@CookieParam、@MatrixParam可参考：
-https://www.cnblogs.com/chen-lhx/p/5599806.html
+https://www.cnblogs.com/chen-lhx/p/5599806.html 和这里
+https://blog.csdn.net/github_35758702/article/details/52614282
 
 一个例子：
 
