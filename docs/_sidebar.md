@@ -19,5 +19,21 @@
   * [2.8 Docker使用](docker.md)
   * [2.9 HSF本地RPC调用线上服务](invoke.md)
   * [2.10 RESTful API 设计指南](restful-design.md)
+  * [2.11 常用工具类使用](optimus-common/README.md)
+  * [Base64](optimus-common/Base64.md)
+  * [CollectionUtil](optimus-common/CollectionUtil.md)
+  * [DateUtils](optimus-common/DateUtils.md)
+  * [FileUtils](optimus-common/FileUtils.md)
+  * [FtpClient](optimus-common/FtpClient.md)
+  * [IdGenerator](optimus-common/IdGenerator.md)
+  * [JsonUtil](optimus-common/JsonUtil.md)
+  * [MD5Util](optimus-common/MD5Util.md)
+  * [ReflectionUtil](optimus-common/ReflectionUtil.md)
+  * [StringUtil](optimus-common/StringUtil.md)
+  * [XmlUtil](optimus-common/XmlUtil.md)
+  * [ArrayUtils](optimus-common/ArrayUtils.md)
+  * [StringExpressionUtil](optimus-common/StringExpressionUtil.md)
 
 * [Changelog](changelog.md)
+
+
