@@ -64,3 +64,31 @@ public class DataSourceConfig {
 
 Mybatis 原生已支持通过注解方式进行自定义查询，但为了便于管理sql框架统一使用xml的方式对sql进行管理，xml统一放在resource目录的mapper文件夹下。
 
+- **分页查询**
+
+脚手架工程默认已集成 [PageHelper](https://github.com/pagehelper/Mybatis-PageHelper) 分页插件，使用方式如下：
+
+```java
+// 设置分页参数，page 查询第几页，size 每页数据条数
+PageHelper.startPage(page, size);
+// 查询list即可，不用再sql用limit分页
+List<MyTaskVo> userTasks = userTaskMapper.findByPage(user.getId(), status, role);
+// 返回时用PageBean封装，统一返回数据格式
+return new PageBean<>(userTasks);
+```
+
+其中*findByPage*方法是个直接查询list的方法，如下：
+
+```
+    <select id="findByPage" resultType="com.deepexi.workflow.domain.vo.MyTaskVo">
+        SELECT t.*
+        FROM wc_user_task t
+        WHERE
+        t.user_id = #{userId}
+        ORDER BY t.created_at DESC
+    </select>
+```
+
+*PageBean*类是deepexi.common包下的一个封装类，主要目的是让mybatis分页查询结果字段和JPA的分页查询保持一致，适配前端统一的分页组件。
+
+
