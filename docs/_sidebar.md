@@ -21,6 +21,8 @@
   * [2.10 RESTful API 设计指南](restful-design.md)
   * [2.11 常用工具类使用](optimus-common/README.md)
   * [Base64](optimus-common/Base64.md)
+  * [BeanHelper](optimus-common/BeanHelper.md)
+  * [BeanPowerHelper](optimus-common/BeanPowerHelper.md)
   * [CollectionUtil](optimus-common/CollectionUtil.md)
   * [DateUtils](optimus-common/DateUtils.md)
   * [FileUtils](optimus-common/FileUtils.md)
